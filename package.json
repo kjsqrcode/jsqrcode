@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vicapow/jsqrcode"
+    "url": "https://github.com/kjsqrcode/jsqrcode.git"
   },
   "keywords": [
     "qr",
