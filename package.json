@@ -35,5 +35,5 @@
   "_id": "jsqrcode@0.0.6",
   "_shasum": "ff4d35668c66fe2960a23f23bc95c4d8c76e4c41",
   "_resolved": "git://github.com/vicapow/jsqrcode.git#13b0dc7cf3ec946b5ddead100df2cbc52d452cce",
-  "_from": "git://github.com/vicapow/jsqrcode.git"
+  "_from": "git://github.com/kjsqrcode/jsqrcode.git"
 }
