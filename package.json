@@ -1,5 +1,5 @@
 {
-  "name": "kjsqrcode",
+  "name": "jsqrcode",
   "version": "0.0.6",
   "description": "a node port of Lazar Laszlo's `jsqrcode` qr code decoder",
   "main": "src/qrcode.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kjsqrcode"
+    "url": "https://github.com/vicapow/jsqrcode"
   },
   "keywords": [
     "qr",
@@ -23,10 +23,17 @@
     "reader"
   ],
   "author": {
-    "name": "juan carrillo",
-    "email": "juan.carrillo@koiosoft.com"
-  }
-  
-  "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/kjsqrcode/jsqrcode"
+    "name": "Lazar Laszlo, Victor Powell",
+    "email": "vicapow@gmail.com"
+  },
+  "readme": "# A Node.JS port of Lazar Laszlo's [jsqrcode](https://github.com/LazarSoft/jsqrcode) for decoding QR Codes.\r\n\r\nNow you can use it in node or in the browser!\r\n\r\n## Usage\r\n\r\n````javascript\r\n    var Canvas = require('canvas')\r\n      , Image = Canvas.Image\r\n      , qrcode = require('jsqrcode')(Canvas)\r\n\r\n    var filename = __dirname + '/qrcode.png'\r\n\r\n    var image = new Image()\r\n    image.onload = function(){\r\n      var result;\r\n      try{\r\n        result = qrcode.decode(image);\r\n        console.log('result of qr code: ' + result);\r\n      }catch(e){\r\n        console.log('unable to read qr code');\r\n      }\r\n    }\r\n    image.src = filename\r\n````",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/vicapow/jsqrcode/issues"
+  },
+  "homepage": "https://github.com/vicapow/jsqrcode",
+  "_id": "jsqrcode@0.0.6",
+  "_shasum": "ff4d35668c66fe2960a23f23bc95c4d8c76e4c41",
+  "_resolved": "git://github.com/vicapow/jsqrcode.git#13b0dc7cf3ec946b5ddead100df2cbc52d452cce",
+  "_from": "git://github.com/vicapow/jsqrcode.git"
 }
