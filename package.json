@@ -1,5 +1,5 @@
 {
-  "name": "jsqrcode",
+  "name": "kjsqrcode",
   "version": "0.0.6",
   "description": "a node port of Lazar Laszlo's `jsqrcode` qr code decoder",
   "main": "src/qrcode.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vicapow/jsqrcode"
+    "url": "https://github.com/kjsqrcode"
   },
   "keywords": [
     "qr",
@@ -23,32 +23,10 @@
     "reader"
   ],
   "author": {
-    "name": "Lazar Laszlo, Victor Powell",
-    "email": "vicapow@gmail.com"
-  },
-  "_id": "jsqrcode@0.0.6",
-  "dist": {
-    "shasum": "e195c8a9a0dc11f8821ba559a8f53e2c9b76ede6",
-    "tarball": "http://registry.npmjs.org/jsqrcode/-/jsqrcode-0.0.6.tgz"
-  },
-  "_npmVersion": "1.1.62",
-  "_npmUser": {
-    "name": "vicapow",
-    "email": "vicapow@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "vicapow",
-      "email": "vicapow@gmail.com"
-    }
-  ],
-  "directories": {},
-  "_shasum": "e195c8a9a0dc11f8821ba559a8f53e2c9b76ede6",
-  "_from": "jsqrcode@",
-  "_resolved": "https://registry.npmjs.org/jsqrcode/-/jsqrcode-0.0.6.tgz",
-  "bugs": {
-    "url": "https://github.com/vicapow/jsqrcode/issues"
-  },
+    "name": "juan carrillo",
+    "email": "juan.carrillo@koiosoft.com"
+  }
+  
   "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/vicapow/jsqrcode"
+  "homepage": "https://github.com/kjsqrcode/jsqrcode"
 }
